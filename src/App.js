@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import Header from './components/header';
+import bgImage from './assets/images/bgImage.png';
+import Gradients from './components/gradients';
+import Hero from './components/hero';
+import Coins from './components/coins';
+import TopStars from './components/topStars';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const Container = styled.div`
+	height: 100vh;
+	background: url(${bgImage}) center center/cover;
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+`;
+
+const App = () => {
+	return (
+		<Container>
+			<Header />
+			<TopStars />
+			<Hero />
+			<Coins />
+			<Gradients />
+		</Container>
+	);
+};
 
 export default App;
