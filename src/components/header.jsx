@@ -43,10 +43,22 @@ const Container = styled.header`
 	@media (max-width: 300px) {
 		margin: 1.5rem auto 1rem auto;
 
+		.logo {
+			img {
+				width: 30px;
+			}
+		}
+
 		.date {
+			img {
+				width: 30px;
+			}
 			&-right {
 				&-top {
-					font-size: 14px;
+					font-size: 13px;
+				}
+				&-bottom {
+					font-size: 11px;
 				}
 			}
 		}

@@ -81,7 +81,7 @@ const Container = styled.div`
 			padding: 8px;
 			margin-top: 15px;
 			gap: 6px;
-			font-size: 10px;
+			font-size: 9.5px;
 		}
 	}
 `;
