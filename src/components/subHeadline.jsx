@@ -44,6 +44,10 @@ const Container = styled.div`
 			display: none;
 		}
 	}
+
+	@media (max-width: 300px) {
+		font-size: 0.8rem;
+	}
 `;
 const SubHeadline = () => {
 	return (

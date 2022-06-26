@@ -26,8 +26,12 @@ const Container = styled.header`
 				margin-top: 2px;
 			}
 		}
+	}
 
-		@media (max-width: 576px) {
+	@media (max-width: 576px) {
+		width: 90%;
+
+		.date {
 			&-right {
 				&-top {
 					font-size: 16px;
@@ -36,8 +40,16 @@ const Container = styled.header`
 		}
 	}
 
-	@media (max-width: 576px) {
-		width: 90%;
+	@media (max-width: 300px) {
+		margin: 1.5rem auto 1rem auto;
+
+		.date {
+			&-right {
+				&-top {
+					font-size: 14px;
+				}
+			}
+		}
 	}
 `;
 

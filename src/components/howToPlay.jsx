@@ -61,6 +61,29 @@ const Container = styled.div`
 	@media (max-width: 576px) {
 		width: 100%;
 	}
+
+	@media (max-width: 300px) {
+		padding: 1rem;
+		.heading {
+			font-size: 12px;
+			margin-bottom: 0.8rem;
+		}
+
+		.steps {
+			font-size: 11px;
+		}
+
+		.sounds {
+			font-size: 11px;
+		}
+
+		.tagline {
+			padding: 8px;
+			margin-top: 15px;
+			gap: 6px;
+			font-size: 10px;
+		}
+	}
 `;
 
 const HowToPlay = () => {

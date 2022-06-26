@@ -50,6 +50,11 @@ const Container = styled.div`
 			display: block;
 		}
 	}
+
+	@media (max-width: 300px) {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
 `;
 
 const HeadLine = () => {

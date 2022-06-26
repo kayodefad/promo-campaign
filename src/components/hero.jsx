@@ -55,6 +55,10 @@ const PlayButton = styled.button`
 		margin-left: 1.3rem;
 		transform: translateX(13px);
 	}
+
+	@media (max-width: 300px) {
+		padding: 12px 30px;
+	}
 `;
 
 const Hero = () => {
