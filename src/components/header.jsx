@@ -25,6 +25,14 @@ const Container = styled.header`
 				margin-top: 2px;
 			}
 		}
+
+		@media (max-width: 576px) {
+			&-right {
+				&-top {
+					font-size: 16px;
+				}
+			}
+		}
 	}
 
 	@media (max-width: 576px) {

@@ -16,14 +16,15 @@ const Container = styled.div`
 	}
 
 	@media (max-width: 576px) {
-		top: 20px;
+		/* top: 20px;
 		.img-container {
 			width: 100%;
 		}
 
 		img {
 			height: 30vh;
-		}
+		} */
+		display: none;
 	}
 `;
 

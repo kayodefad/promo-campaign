@@ -5,6 +5,7 @@ import Gradients from './components/gradients';
 import Hero from './components/hero';
 import Coins from './components/coins';
 import TopStars from './components/topStars';
+import TopStarsSmall from './components/topStarsSmall';
 
 const Container = styled.div`
 	height: 100vh;
@@ -19,6 +20,7 @@ const App = () => {
 		<Container>
 			<Header />
 			<TopStars />
+			<TopStarsSmall />
 			<Hero />
 			<Coins />
 			<Gradients />
