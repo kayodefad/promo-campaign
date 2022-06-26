@@ -18,7 +18,7 @@ const Container = styled.header`
 		&-right {
 			font-family: 'Inter', sans-serif;
 			&-top {
-				font-size: 18px;
+				font-size: 14px;
 			}
 			&-bottom {
 				color: rgba(255, 255, 255, 0.6);
@@ -30,14 +30,6 @@ const Container = styled.header`
 
 	@media (max-width: 576px) {
 		width: 90%;
-
-		.date {
-			&-right {
-				&-top {
-					font-size: 16px;
-				}
-			}
-		}
 	}
 
 	@media (max-width: 300px) {
