@@ -39,8 +39,8 @@ const animate = keyframes`
 		opacity: 1;
 	}
 	100% {
-		width: 50px;
-		height: 50px;
+		width: 30px;
+		height: 30px;
 		opacity: 0;
 	}
 `;
@@ -52,7 +52,7 @@ const animateImage = keyframes`
 		opacity: 0;
 	}
 	50% {
-		width: 30px;
+		width: 20px;
 	}
 	100% {
 		width: 10px;
@@ -79,7 +79,7 @@ const Container = styled.div`
 		-webkit-box-shadow: 0px 0px 10px 0px rgb(255, 230, 0);
 		-moz-box-shadow: 0px 0px 10px 0px rgb(255, 230, 0);
 		border-radius: 50%;
-		animation: ${animate} 5s linear infinite;
+		animation: ${animate} 2s linear infinite;
 		animation-delay: calc(0.5s * var(--i));
 	}
 
