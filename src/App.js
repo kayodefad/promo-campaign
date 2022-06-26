@@ -8,7 +8,7 @@ import TopStars from './components/topStars';
 
 const Container = styled.div`
 	height: 100vh;
-	background: url(${bgImage}) center center/cover;
+	background: url(${bgImage}), #141531 center center/cover;
 	color: #fff;
 	overflow: hidden;
 	position: relative;
