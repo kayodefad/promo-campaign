@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+
 import triangleGradient from '../assets/images/triangle-gradient.svg';
 
 const gradientsSpin = keyframes`

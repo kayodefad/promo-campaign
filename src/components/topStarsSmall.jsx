@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import topStarsSmall from '../assets/images/topstarsmobile.svg';
 
 const Container = styled.div`

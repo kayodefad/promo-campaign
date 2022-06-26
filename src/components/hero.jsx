@@ -1,7 +1,9 @@
 import styled, { keyframes } from 'styled-components';
+
+import chevronRight from '../assets/images/chevron-right.svg';
+
 import HeadLine from './headline';
 import HowToPlay from './howToPlay';
-import chevronRight from '../assets/images/chevron-right.svg';
 import SubHeadline from './subHeadline';
 
 const animate = keyframes`

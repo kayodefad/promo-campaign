@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import topstars from '../assets/images/topstars.svg';
 
 const Container = styled.div`
@@ -16,14 +17,6 @@ const Container = styled.div`
 	}
 
 	@media (max-width: 576px) {
-		/* top: 20px;
-		.img-container {
-			width: 100%;
-		}
-
-		img {
-			height: 30vh;
-		} */
 		display: none;
 	}
 `;

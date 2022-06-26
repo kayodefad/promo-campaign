@@ -1,6 +1,7 @@
+import styled from 'styled-components';
+
 import logo from '../assets/images/logo.svg';
 import dateIcon from '../assets/images/date-icon.svg';
-import styled from 'styled-components';
 
 const Container = styled.header`
 	width: 80%;

@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components';
+
 import bulb from '../assets/images/bulb.svg';
 
 const animate = keyframes`

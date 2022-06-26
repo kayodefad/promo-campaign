@@ -1,9 +1,11 @@
 import styled, { keyframes } from 'styled-components';
+
 import coinpot from '../assets/images/coinpot.png';
 import coinleft from '../assets/images/coinleft.svg';
 import coinright from '../assets/images/coinright.svg';
 import whiteStar from '../assets/images/white-star.svg';
 import yellowStar from '../assets/images/yellow-star.svg';
+
 import Ripple from './ripple';
 
 const animateLeft = keyframes`
@@ -14,6 +16,7 @@ const animateLeft = keyframes`
     transform: translateY(-10px);
   }
 `;
+
 const animateRight = keyframes`
  from {
     transform: translateY(20px);
