@@ -81,6 +81,7 @@ const Container = styled.div`
 		border-radius: 50%;
 		animation: ${animate} 2s linear infinite;
 		animation-delay: calc(0.5s * var(--i));
+		background: rgba(255, 230, 0, 0.1);
 	}
 
 	img.imgClass {
