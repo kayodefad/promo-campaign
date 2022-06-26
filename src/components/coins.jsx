@@ -44,7 +44,7 @@ const Container = styled.div`
 			position: absolute;
 			bottom: 0;
 			z-index: 2;
-			transform: translateY(4%);
+			transform: translateY(8%);
 
 			.coin-pot {
 				width: 100%;
