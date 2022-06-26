@@ -15,7 +15,7 @@ const animate = keyframes`
   }
 `;
 
-const Container = styled.div`
+const Container = styled.section`
 	width: 90%;
 	margin: auto;
 	height: 65vh;
