@@ -29,6 +29,7 @@ const Container = styled.div`
 `;
 
 const PlayButton = styled.button`
+	font-family: 'Inter', sans-serif;
 	display: flex;
 	align-items: center;
 	color: white;
@@ -48,8 +49,9 @@ const PlayButton = styled.button`
 	}
 
 	img {
-		width: 7px;
+		width: 8px;
 		margin-left: 1.3rem;
+		transform: translateX(13px);
 	}
 `;
 
