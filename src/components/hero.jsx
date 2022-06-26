@@ -24,6 +24,8 @@ const Container = styled.section`
 	flex-direction: column;
 	gap: 15px;
 	justify-content: space-between;
+	position: relative;
+	z-index: 2;
 
 	@media (max-height: 654px) {
 		overflow: auto;
