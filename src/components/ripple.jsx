@@ -3,30 +3,33 @@ import styled, { keyframes } from 'styled-components';
 const animateGroup = keyframes`
     0% {
 		transform: translate(0, 0);
-		opacity: 1;
 		width: 25px;
 		height: 25px;
+		opacity: 1;
 	}
 	25% {
 		transform: translate(-50px, -100px);
 		width: 50px;
 		height: 50px;
+		opacity: 1;
 	}
 	50% {
 		transform: translate(0, -200px);
-		width: 80px;
-		height: 80px;
+		width: 100px;
+		height: 100px;
+		opacity: 1;
 	}
 	75% {
 		transform: translate(-50px, -300px);
 		width: 50px;
 		height: 50px;
+		opacity: 0.9;
 	}
 	100% {
 		transform: translate(0, -400px);
-		opacity: 0;
 		width: 25px;
 		height: 25px;
+		opacity: 0;
 	}
 `;
 
@@ -49,7 +52,6 @@ const animateImage = keyframes`
     0% {
 		width: 10px;
 		transform: rotate(0deg);
-		opacity: 0;
 	}
 	50% {
 		width: 20px;
@@ -57,7 +59,6 @@ const animateImage = keyframes`
 	100% {
 		width: 10px;
 		transform: rotate(-360deg);
-		opacity: 1;
 	}
 `;
 
@@ -75,11 +76,11 @@ const Container = styled.div`
 
 	span {
 		position: absolute;
-		box-shadow: 0px 0px 10px 0px rgb(255, 230, 0);
-		-webkit-box-shadow: 0px 0px 10px 0px rgb(255, 230, 0);
-		-moz-box-shadow: 0px 0px 10px 0px rgb(255, 230, 0);
+		box-shadow: 0px 0px 10px 0px rgb(255, 230, 0, 0.5);
+		-webkit-box-shadow: 0px 0px 10px 0px rgb(255, 230, 0, 0.5);
+		-moz-box-shadow: 0px 0px 10px 0px rgb(255, 230, 0, 0.5);
 		border-radius: 50%;
-		animation: ${animate} 2s linear infinite;
+		animation: ${animate} 2.5s linear infinite;
 		animation-delay: calc(0.5s * var(--i));
 		background: rgba(255, 230, 0, 0.1);
 	}
