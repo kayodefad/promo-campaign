@@ -18,12 +18,12 @@ const Container = styled.div`
 const App = () => {
 	return (
 		<Container>
+			<Rays />
 			<Header />
 			<TopStars />
 			<TopStarsSmall />
 			<Hero />
 			<Coins />
-			<Rays />
 		</Container>
 	);
 };
