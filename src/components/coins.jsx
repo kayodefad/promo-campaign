@@ -43,36 +43,38 @@ const Container = styled.div`
 		.coin-pot-wrapper {
 			position: absolute;
 			bottom: 0;
-			z-index: 2;
-			transform: translateY(18%);
+
+			transform: translateY(24%);
 
 			.coin-pot {
 				width: 100%;
+				position: relative;
+				z-index: 2;
 			}
 
 			.coin-left {
 				position: absolute;
 				left: -20%;
-				bottom: 70%;
+				bottom: 61%;
 				width: 35%;
 				animation: ${animateLeft} 1.8s linear infinite alternate;
 			}
 			.coin-right {
 				position: absolute;
 				right: -18%;
-				bottom: 40%;
+				bottom: 31%;
 				width: 25%;
 				animation: ${animateRight} 1.7s linear infinite alternate;
 			}
 			.yellow-star {
 				position: absolute;
-				bottom:25%;
+				bottom: 31%;
 				left: -25%;
 				width: 28px;
 			}
 			.white-star {
 				position: absolute;
-				bottom: 163%;
+				bottom: 169%;
 				left: -28%;
 				width: 18px;
 			}
