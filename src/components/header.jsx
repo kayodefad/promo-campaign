@@ -19,6 +19,7 @@ const Container = styled.header`
 			font-family: 'Inter', sans-serif;
 			&-top {
 				font-size: 16px;
+				font-weight: 700;
 			}
 			&-bottom {
 				color: rgba(255, 255, 255, 0.6);
