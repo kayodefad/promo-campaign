@@ -15,7 +15,7 @@ const raysSpin = keyframes`
 
 const Container = styled.div`
 	position: absolute;
-	bottom: 0;
+	bottom: -5%;
 	width: 100%;
 	text-align: center;
 	height: inherit;
