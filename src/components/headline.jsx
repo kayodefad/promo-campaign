@@ -61,27 +61,27 @@ const HeadLine = () => {
 	return (
 		<Container>
 			<div className='large'>
-				<div className='wrapper'>
+				<p className='wrapper'>
 					<span className='light top'>Unlock to</span>
-				</div>
-				<div className='wrapper'>
+				</p>
+				<p className='wrapper'>
 					<span className='bottom'>
 						<strong>Power your dreams!</strong>
 					</span>
-				</div>
+				</p>
 			</div>
 			<div className='small'>
-				<div className='wrapper'>
+				<p className='wrapper'>
 					<span className='light top'>Unlock to</span>&nbsp;
 					<span className='top'>
 						<strong>Power</strong>
 					</span>
-				</div>
-				<div className='wrapper'>
+				</p>
+				<p className='wrapper'>
 					<span className='bottom'>
 						<strong>your dreams!</strong>
 					</span>
-				</div>
+				</p>
 			</div>
 		</Container>
 	);

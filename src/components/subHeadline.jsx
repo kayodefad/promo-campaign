@@ -53,24 +53,24 @@ const SubHeadline = () => {
 	return (
 		<Container>
 			<div className='large'>
-				<div className='wrapper'>
+				<p className='wrapper'>
 					<span className='top'>Stand a chance to win</span>
-				</div>
-				<div className='wrapper'>
+				</p>
+				<p className='wrapper'>
 					<span className='bottom'>
 						<strong>N3,000,000</strong> everyday for the next 5 days
 					</span>
-				</div>
+				</p>
 			</div>
 			<div className='small'>
-				<div className='wrapper'>
+				<p className='wrapper'>
 					<span className='top'>
 						Stand a chance to win <strong>N3,000,000</strong>
 					</span>
-				</div>
-				<div className='wrapper'>
+				</p>
+				<p className='wrapper'>
 					<span className='bottom'>everyday for the next 5 days</span>
-				</div>
+				</p>
 			</div>
 		</Container>
 	);
