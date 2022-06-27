@@ -1,8 +1,8 @@
 import styled, { keyframes } from 'styled-components';
 
-import triangleGradient from '../assets/images/triangle-gradient.svg';
+import triangleRay from '../assets/images/triangle-ray.svg';
 
-const gradientsSpin = keyframes`
+const raysSpin = keyframes`
  from {
     transform: rotate(0deg);
     transform-origin: bottom;
@@ -19,10 +19,10 @@ const Container = styled.div`
 	width: 100%;
 	text-align: center;
 	height: inherit;
-	animation: ${gradientsSpin} infinite 30s linear;
+	animation: ${raysSpin} infinite 30s linear;
 	pointer-events: none;
 
-	.gradient-wrapper {
+	.ray-wrapper {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
@@ -30,34 +30,34 @@ const Container = styled.div`
 	}
 `;
 
-const Gradient = styled.div`
-	&.gradient-position {
+const Ray = styled.div`
+	&.ray-position {
 		transform: ${(props) => `rotate(${props.position * 40}deg)`};
 	}
 `;
 
-const Gradients = () => {
+const Rays = () => {
 	return (
 		<Container>
 			{Array(9)
 				.fill(null)
 				.map((_, i) => {
 					return (
-						<Gradient
+						<Ray
 							key={i}
 							position={i}
-							className='gradient-wrapper gradient-position'
+							className='ray-wrapper ray-position'
 						>
 							<img
-								className='gradient'
-								src={triangleGradient}
-								alt='triangleGradient'
+								className='ray'
+								src={triangleRay}
+								alt='triangleRay'
 							/>
-						</Gradient>
+						</Ray>
 					);
 				})}
 		</Container>
 	);
 };
 
-export default Gradients;
+export default Rays;

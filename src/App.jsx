@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Header from './components/header';
 import bgImage from './assets/images/bgImage.png';
-import Gradients from './components/gradients';
+import Rays from './components/rays';
 import Hero from './components/hero';
 import Coins from './components/coins';
 import TopStars from './components/topStars';
@@ -23,7 +23,7 @@ const App = () => {
 			<TopStarsSmall />
 			<Hero />
 			<Coins />
-			<Gradients />
+			<Rays />
 		</Container>
 	);
 };
