@@ -44,7 +44,7 @@ const Container = styled.div`
 			position: absolute;
 			bottom: 0;
 			z-index: 2;
-			transform: translateY(7%);
+			transform: translateY(18%);
 
 			.coin-pot {
 				width: 100%;
@@ -66,13 +66,15 @@ const Container = styled.div`
 			}
 			.yellow-star {
 				position: absolute;
-				bottom: 15%;
+				bottom:25%;
 				left: -25%;
+				width: 28px;
 			}
 			.white-star {
 				position: absolute;
-				bottom: 150%;
+				bottom: 163%;
 				left: -28%;
+				width: 18px;
 			}
 		}
 	}

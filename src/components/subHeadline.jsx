@@ -12,7 +12,7 @@ const animate = keyframes`
 const Container = styled.div`
 	font-family: 'Inter', sans-serif;
 	text-align: center;
-	font-size: 1.25rem;
+	font-size: 1.2rem;
 
 	.wrapper {
 		overflow: hidden;

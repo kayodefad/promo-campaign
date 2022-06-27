@@ -11,7 +11,7 @@ const animate = keyframes`
 
 const Container = styled.div`
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	line-height: 3rem;
 
 	.wrapper {

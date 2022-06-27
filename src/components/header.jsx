@@ -8,7 +8,7 @@ const Container = styled.header`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 2rem auto 1.5rem auto;
+	margin: 1.5rem auto;
 
 	.date {
 		display: flex;
