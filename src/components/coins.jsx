@@ -43,13 +43,12 @@ const Container = styled.div`
 		.coin-pot-wrapper {
 			position: absolute;
 			bottom: 0;
+			z-index: 2;
 
 			transform: translateY(24%);
 
 			.coin-pot {
 				width: 100%;
-				position: relative;
-				z-index: 2;
 			}
 
 			.coin-left {
