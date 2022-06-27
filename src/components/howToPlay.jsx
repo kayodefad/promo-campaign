@@ -103,7 +103,7 @@ const HowToPlay = () => {
 				<img src={bulb} alt='bulb' />
 				<p>
 					Think well before you guess. You have only 2 attempts per day and even
-					after you wi, you can come back the next day to try for another
+					after you win, you can come back the next day to try for another
 					jackpot!
 				</p>
 			</div>
