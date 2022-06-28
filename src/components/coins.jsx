@@ -56,14 +56,14 @@ const Container = styled.div`
 				left: -20%;
 				bottom: 61%;
 				width: 35%;
-				animation: ${animateLeft} 1.8s linear infinite alternate;
+				animation: ${animateLeft} 1.8s ease-in-out infinite alternate;
 			}
 			.coin-right {
 				position: absolute;
 				right: -18%;
 				bottom: 31%;
 				width: 25%;
-				animation: ${animateRight} 1.7s linear infinite alternate;
+				animation: ${animateRight} 1.7s ease-in-out infinite alternate;
 			}
 			.yellow-star {
 				position: absolute;
