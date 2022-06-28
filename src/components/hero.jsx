@@ -66,15 +66,9 @@ const PlayButton = styled.button`
 const Hero = () => {
 	return (
 		<Container>
-			<div>
-				<HeadLine />
-			</div>
-			<div>
-				<SubHeadline />
-			</div>
-			<div>
-				<HowToPlay />
-			</div>
+			<HeadLine />
+			<SubHeadline />
+			<HowToPlay />
 			<PlayButton>
 				Play the Game <img src={chevronRight} alt='right chevron' />
 			</PlayButton>
